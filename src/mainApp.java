@@ -88,6 +88,8 @@ public class mainApp {
 				System.out.println("Enter the room temputure to calculate? y/n");
 				System.out.print("Temperatur in °Celsius: ");
 				fahrenheit = 9/5d * celsius + 32;
+				
+				
 				/*
 				aufgabe = word.nextLine();
 				while(go2 == true) {
