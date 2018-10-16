@@ -16,6 +16,11 @@ public class mainApp {
 			System.out.print("\nWrite a task's number to show: ");
 			aufgabeNum = scan.nextInt();
 			switch (aufgabeNum) {
+			
+			case 0:
+				System.out.println("End of Program");
+				run = false;
+				break;
 
 			case 1:
 				Aufgabe1.main(null);
@@ -65,11 +70,6 @@ public class mainApp {
 			case 10:
 				Aufgabe10.main(null);
 				System.out.println("\nEnd of task: " + aufgabeNum);
-				break;
-				
-			case 0:
-				System.out.println("End of Program");
-				run = false;
 				break;
 				
 			default:
