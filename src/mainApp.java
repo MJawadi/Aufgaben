@@ -5,11 +5,6 @@ public class mainApp {
 	public static Scanner scan = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		/*
-		System.out.println("Args are:");
-		for(String arg : args) {
-			System.out.println(arg);
-		}*/
 		
 		
 		boolean run = true;
